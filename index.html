@@ -2,61 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Me</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      margin: 0;
-      padding: 20px;
+      background: #f4f4f4;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
     }
-    .container {
-      max-width: 500px;
-      margin: 100px auto;
+    .box {
       background: #fff;
       padding: 30px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0;
-      border: 1px solid #ccc;
-      border-radius: 4px;
+    .email {
+      font-size: 18px;
+      color: #333;
+      margin-top: 10px;
     }
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+    a {
+      color: #007bff;
+      text-decoration: none;
     }
-    button:hover {
-      background-color: #45a049;
-    }
-    h2 {
-      margin-bottom: 20px;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="box">
     <h2>Contact Me</h2>
-    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name..." required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Your email..." required>
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Write something..." rows="5" required></textarea>
-
-      <button type="submit">Send</button>
-    </form>
+    <p class="email">
+      📧 <a href="mailto:aipassportphotogenerator@gmail.com">aipassportphotogenerator@gmail.com</a>
+    </p>
   </div>
 </body>
 </html>
